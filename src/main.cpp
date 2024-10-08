@@ -23,7 +23,7 @@ namespace
 		}
 	};
 
-	void ConsoleLogPrint(float a_value)
+	void ConsoleLogPrint(std::uint64_t a_value)
 	{
 		const auto ui = RE::UI::GetSingleton();
 		const auto player = RE::PlayerCharacter::GetSingleton();
