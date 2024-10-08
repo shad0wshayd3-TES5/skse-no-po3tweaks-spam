@@ -26,6 +26,9 @@ add_rules("plugin.vsxmake.autoupdate")
 -- compile for ae
 set_config("skyrim_ae", true)
 
+-- enable xbyak
+set_config("skse_xbyak", true)
+
 -- setup targets
 target("skse-no-po3tweaks-spam")
     -- bind local dependencies
@@ -34,7 +37,7 @@ target("skse-no-po3tweaks-spam")
     -- add commonlibsse plugin
     add_rules("commonlibsse.plugin", {
         name = "skse-no-po3tweaks-spam",
-        author = "shad0wshayd3-TES5"
+        author = "shad0wshayd3"
     })
 
     -- add source files
